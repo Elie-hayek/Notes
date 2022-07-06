@@ -11,3 +11,8 @@ resque toutes les demandes sont transmises à l’URL d’hébergement graph.fac
 ### Tokens d’accès
 
 Les tokens d’accès permettent à votre application d’accéder à l’API Graph. Presque tous les points de terminaison de l’API Graph exigent un token d’accès d’une certaine nature. Votre demande peut donc en nécessiter un chaque fois que vous accédez à un point de terminaison. Ils remplissent généralement deux fonctions :
+
+- Ils permettent à votre application d’accéder aux informations d’un utilisateur sans avoir besoin du mot de passe de ce dernier ; Par exemple, votre application a besoin de l’e-mail d’un utilisateur pour exécuter une fonction. Si l’utilisateur accepte d’autoriser votre application à récupérer son adresse e-mail à partir de Facebook, il n’aura pas à saisir son mot de passe Facebook pour la récupération.
+
+- Ils nous permettent d’identifier votre application, son utilisateur et le type de données que celui-ci permet à votre application de consulter.
+
