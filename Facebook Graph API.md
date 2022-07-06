@@ -1,4 +1,4 @@
-## API Graph 
+## 1.Facebook API 
 
 L’API Graph est le meilleur moyen d’insérer et de récupérer des données dans la plate-forme Facebook. Il s’agit d’une API basée sur le protocole HTTP qui permet aux apps d’avoir recours à la programmation pour interroger des données, publier de nouvelles actualités, gérer des publicités, importer des photos et réaliser un large éventail d’autres tâches.
 
@@ -20,3 +20,40 @@ Le token contient notamment sa date d’expiration et le nom de l’app qui l’
 
 
 ![Capture d’écran 2022-07-06 à 09 55 58](https://user-images.githubusercontent.com/108743863/177499674-8d66205f-b341-41b4-98da-daefcdd8eccf.png)
+
+# 2. Obtenir un jeton d’accès:
+
+1. Créez une application Facebook ou utilisez-en une que vous avez déjà créée :
+ [Facebook Developers apps](https://developers.facebook.com/apps)
+
+2. Saisissez les informations de création de l’application
+
+3. Notez quelque-part les informations concernant l’identité de votre application
+
+   Client ID = 564101085273434, et Client Secret = a7ba11ca9bc85956234070defc1279a5
+   
+4. Rendez-vous ensuite sur : [Explorateur de l’API Graph de Facebook](https://developers.facebook.com/tools/explorer)
+
+5. Sélectionnez l’application que vous venez de créer dans le menu déroulant en haut à droite
+
+6. Cliquez ensuite sur le bouton « Obtenir un token d’accès de Page »
+
+7. Sélectionnez maintenant la page en question sur laquelle vous souhaitez publier du contenu
+
+8. Copiez le jeton d’accès (access token) disponible dans le champ d’entré à « Jeton d’accès »
+
+    *EAAIBDATOHVoBAFAdbCaBCGnMJX2uk2ZCi4eTKVJOs3Fq6oWa78OEuwQZBSejFCJeacoienpvRccoiL7ybXUrcOwkg4TLFVqVyZBeoMymmuGvemc13uNBAmLz2EzKRZCUlurX5pEal2TzVvumvX H551ZAt1k9mkdKUsP8yqXIMIHR0ZBxZARzJiX*
+    
+9. Remplacez ensuite dans l’URL suivante :
+
+   https://graph.facebook.com/oauth/access_token?client_id=CID&client_secret=CS&grant_type=fb_exchange_token&fb_exchange_token=AT
+  
+    - CID par l’ID de votre application relevé plus haut
+    - CS par le code secret de votre application relevé plus haut
+    - AT par le jeton d’accès précédemment copié
+
+# 3. Vérifier le durée de validation d’un jeton d’accès et étendre sa validité:
+
+1. Accédez à [Explorateur de l’API Graph de Facebook](https://developers.facebook.com/tools/explorer)
+
+
