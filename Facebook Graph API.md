@@ -1,4 +1,4 @@
-## 1.Facebook API 
+# 1. Facebook API 
 
 L’API Graph est le meilleur moyen d’insérer et de récupérer des données dans la plate-forme Facebook. Il s’agit d’une API basée sur le protocole HTTP qui permet aux apps d’avoir recours à la programmation pour interroger des données, publier de nouvelles actualités, gérer des publicités, importer des photos et réaliser un large éventail d’autres tâches.
 
@@ -56,4 +56,17 @@ Le token contient notamment sa date d’expiration et le nom de l’app qui l’
 
 1. Accédez à [Explorateur de l’API Graph de Facebook](https://developers.facebook.com/tools/explorer)
 
+2. Sélectionnez votre application dans le menu déroulant en haut à droite
 
+3. Cliquez sur le bouton « Obtenir un token d’accès de Page » juste en dessous
+
+4. Dans le champ de saisie « Jeton d’accès », cliquez sur l’icône du point d’exclamation bleu
+
+5. Dans le menu contextuel, cliquez sur le bouton « Ouvrir dans l’outil Access Token » en bas à gauche de la fenêtre contextuelle
+
+6. Cela ouvrira une nouvelle page avec les détails du jeton d’accès (access token) de cette application, vous verrez probablement que le jeton ne dure qu’une heure ou plus
+
+8. Pour étendre ce jeton d’accès et en obtenir un qui n’expire pas, cliquez sur le bouton « Extension du jeton d’accès »
+Cela vous donnera un jeton d’accès jamais expiré
+
+{"access_token":"EAAIBDATOHVoBADIkubeVgZARnbKELj6ZBZA7xrvZCWd0vZAvbLlxZAuESoMVJZAZA5SZClfFCFUYaEEL0LeyqTF8GySlPOKzuxoZBx7yRuoArt7Hv4ZBudzM61LKHBYnDRZA9UG3HESlBIlz2rRSiIz69vxnmy5ZByTbFISQrfcjnzjRmx7ZA9UpdqE3lr","token_type":"bearer","expires_in":5181341}
