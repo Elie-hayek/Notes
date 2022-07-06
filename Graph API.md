@@ -16,3 +16,7 @@ Les tokens d’accès permettent à votre application d’accéder à l’API Gr
 
 - Ils nous permettent d’identifier votre application, son utilisateur et le type de données que celui-ci permet à votre application de consulter.
 
+Le token contient notamment sa date d’expiration et le nom de l’app qui l’a généré. La plupart des appels d’API sur Facebook doivent contenir un token d’accès, en raison des contrôles de confidentialité. Il existe différents types de tokens d’accès pour prendre en charge les divers cas d’utilisation :
+
+
+![Capture d’écran 2022-07-06 à 09 55 58](https://user-images.githubusercontent.com/108743863/177499674-8d66205f-b341-41b4-98da-daefcdd8eccf.png)
