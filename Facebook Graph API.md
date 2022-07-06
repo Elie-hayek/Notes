@@ -52,6 +52,9 @@ Le token contient notamment sa date d’expiration et le nom de l’app qui l’
     - CS par le code secret de votre application relevé plus haut
     - AT par le jeton d’accès précédemment copié
 
+https://graph.facebook.com/oauth/access_token?client_id=564101085273434&client_secret=a7ba11ca9bc85956234070defc1279a5&grant_type=fb_exchange_token&fb_exchange_token=EAAIBDATOHVoBAFAdbCaBCGnMJX2uk2ZCi4eTKVJOs3Fq6oWa78OEuwQZBSejFCJeacoienpvRccoiL7ybXUrcOwkg4TLFVqVyZBeoMymmuGvemc13uNBAmLz2EzKRZCUlurX5pEal2TzVvumvXH551ZAt1k9mkdKUsP8yqXIMIHR0ZBxZARzJiX
+
+
 # 3. Vérifier le durée de validation d’un jeton d’accès et étendre sa validité:
 
 1. Accédez à [Explorateur de l’API Graph de Facebook](https://developers.facebook.com/tools/explorer)
